@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Gray_show )
+find_package( OpenCV REQUIRED )
+add_executable( Gray_show gray_show.cpp )
+target_link_libraries( Gray_show ${OpenCV_LIBS} )

@@ -1,0 +1,11 @@
+注意：
+imwrite( "目录/名字.jpg", gray_iamge );
+其中，生成的灰度图片名字一定要加后缀，否则在make时会出错：
+
+OpenCV Error: Unspecified error (could not find a writer for the specified extension) in imwrite_, file /home/ljl/OpenCV/opencv-2.4.11/modules/highgui/src/loadsave.cpp, line 275
+terminate called after throwing an instance of 'cv::Exception'
+  what():  /home/ljl/OpenCV/opencv-2.4.11/modules/highgui/src/loadsave.cpp:275: error: (-2) could not find a writer for the specified extension in function imwrite_
+
+  Aborted (core dumped)
+
+
