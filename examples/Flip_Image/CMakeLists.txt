@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Flip_Image )
+find_package( OpenCV REQUIRED )
+add_executable( Flip_Image Flip_Image.cpp )
+target_link_libraries( Flip_Image ${OpenCV_LIBS} )
