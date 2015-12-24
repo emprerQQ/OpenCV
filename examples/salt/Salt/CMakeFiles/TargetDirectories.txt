@@ -1,0 +1,1 @@
+/home/ljl/ljl_OpenCV/examples/salt/CMakeFiles/Salt_Image.dir

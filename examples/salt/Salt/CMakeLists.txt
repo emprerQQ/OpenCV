@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Salt_Image )
+find_package( OpenCV REQUIRED )
+add_executable( Salt_Image Salt_Image.cpp )
+target_link_libraries( Salt_Image ${OpenCV_LIBS} )
